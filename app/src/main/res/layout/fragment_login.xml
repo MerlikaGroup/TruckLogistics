@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <data>
+        <import type="al.misn.trucklogistics.data.User" />
+        <variable
+            name="UserData"
+            type="al.misn.trucklogistics.data.dataDTO.User" />
+        <variable
+            name="viewModel"
+            type="al.misn.trucklogistics.views.boarding.BoardingViewModel"/>
+    </data>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/chocolate_brown"
+    android:layout_height="match_parent"
+    tools:context=".views.boarding.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@{UserData.username}"
+            android:backgroundTint="@color/burnt_orange"
+            android:textColor="@android:color/black"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/custom_edittext_login" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Password"
+            android:backgroundTint="@color/burnt_orange"
+            android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/custom_edittext_login" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hyr"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/rounded_button_background"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:minWidth="200dp"
+            android:clickable="true"
+            android:onClick="@{() -> viewModel.onClick()}"
+            android:focusable="true"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
+</layout>

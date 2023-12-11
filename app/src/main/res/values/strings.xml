@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TruckLogistics</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hyr">Login</string>
+    <string name="regjistrohu">Sign Up</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_sapphire">#FF3366CC</color>
+    <color name="forest_green">#FF66AA33</color>
+    <color name="sunflower">#FFFFBB33</color>
+    <color name="fire_engine_red">#FFCC0000</color>
+    <color name="purple_passion">#FF9933CC</color>
+    <color name="electric_blue">#FF3399FF</color>
+    <color name="tangerine">#FFFF8800</color>
+    <color name="deep_sea">#FF0099CC</color>
+    <color name="lime_green">#FF669900</color>
+    <color name="soft_lavender">#FFAA66CC</color>
+
+    <color name="steel_blue">#FF336699</color>
+    <color name="olive_green">#FF558833</color>
+    <color name="burnt_orange">#FFDD7733</color>
+    <color name="ruby_red">#FFBB0000</color>
+    <color name="vivid_purple">#FF990099</color>
+    <color name="medium_cerulean">#FF0066CC</color>
+    <color name="dark_orange">#FFFF6600</color>
+    <color name="teal_blue">#FF007799</color>
+    <color name="moss_green">#FF557700</color>
+    <color name="mauve">#FF8855AA</color>
+
+    <color name="chocolate_brown">#FF8B4513</color>
+    <color name="goldenrod">#FFDAA520</color>
+    <color name="tomato_red">#FFFF6347</color>
+    <color name="slate_gray">#FF708090</color>
+    <color name="cadet_blue">#FF5F9EA0</color>
+    <color name="medium_violet_red">#FFC71585</color>
+    <color name="dark_salmon">#FFE9967A</color>
+    <color name="indigo">#FF4B0082</color>
+    <color name="spring_green">#FF00FF7F</color>
+    <color name="dark_cyan">#FF008B8B</color>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840399837656",
+    "project_id": "trucklogistics-185db",
+    "storage_bucket": "trucklogistics-185db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840399837656:android:12057c9e1ac95378af3aad",
+        "android_client_info": {
+          "package_name": "al.misn.trucklogistics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK6MilSf8OC-OfxnfCW0EDDxbfhdTiQDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
